@@ -1,12 +1,12 @@
 {
     computers = {
         { 
-            id = 2
+            id = 2,
             line = 1,
             name = "Furnance 1" 
         },
         { 
-            id = 3
+            id = 3,
             line = 2,
             name = "Mixer 1" 
         }
