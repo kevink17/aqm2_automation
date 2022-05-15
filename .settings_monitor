@@ -1,6 +1,14 @@
 {
     computers = {
-        2 = { line = 1, name = "Furnance 1" },
-        3 = { line = 2, name = "Mixer 1" }
+        { 
+            id = 2
+            line = 1,
+            name = "Furnance 1" 
+        },
+        { 
+            id = 3
+            line = 2,
+            name = "Mixer 1" 
+        }
     }
 }
