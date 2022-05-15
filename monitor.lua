@@ -15,7 +15,7 @@ end
 
 print("Starting monitor.")
 
-for computer in computers do
+for i,computer in pairs(computers) do
     monitor.setCursorPos(1, computer.line)
     monitor.clearLine()
     monitor.write(computer.name..": Warte auf Signal...")
