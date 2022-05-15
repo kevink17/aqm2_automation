@@ -1,0 +1,27 @@
+{
+    items_threshold = {
+        { 
+            name = "minecraft:copper_ingot",
+            threshold = 100, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:lead_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:lead_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+    }

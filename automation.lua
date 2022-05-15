@@ -1,60 +1,15 @@
-items_threshold = {
-    { 
-        name = "minecraft:copper_ingot",
-        threshold = 100, 
-        components =
-        { 
-            {
-                 name = "modern_industrialization:copper_dust",
-                count = 1
-            } 
-        },
-        yield = 1
-    },
-    { 
-        name = "techreborn:lead_ingot",
-        threshold = 64, 
-        components =
-        { 
-            {
-                name = "modern_industrialization:lead_dust",
-                count = 1
-            } 
-        },
-        yield = 1
-    },
-    { 
-        name = "techreborn:bronze_dust",
-        threshold = 128, 
-        components =
-        { 
-            {
-                name = "modern_industrialization:copper_dust",
-                count = 3
-            },
-            {
-                name = "modern_industrialization:tin_dust",
-                count = 1
-            },
-        },
-        yield = 4
-    },
-    --{ "bronze_dust", 64, { {"copper_dust", 3, {"tin_dust",1 } } }
-}
-
-connector_inventory_side = "back"
-buffer_inventory_side = "front"
-input_inventory_side = "top"
+local connector_inventory_side = "back"
+local buffer_inventory_side = "front"
+local input_inventory_side = "top"
 
 
-connector_inventory = peripheral.wrap(connector_inventory_side)
-input_inventory = peripheral.wrap(input_inventory_side)
-buffer_inventory = peripheral.wrap(buffer_inventory_side)
---buffer_inventory.pullItems(connector_inventory_side, 1, 1)
+local connector_inventory = peripheral.wrap(connector_inventory_side)
+local input_inventory = peripheral.wrap(input_inventory_side)
+local buffer_inventory = peripheral.wrap(buffer_inventory_side)
 
 
 function getItemCount(itemName, inventory)
-    count = 0;
+    local count = 0;
     for slot, item in pairs(inventory.list()) do
         if(item.name == itemName) then
             count = count + item.count
@@ -72,7 +27,7 @@ function getItemsInputCount(itemName)
 end
 
 function produceItem(itemName, needed, components, yield)
-    iterations = math.ceil(needed / yield)
+    local iterations = math.ceil(needed / yield)
     for k, component in pairs(components) do
         total = iterations * component.count
         print("Pulling "..total.." of component "..component.name..".")
@@ -93,7 +48,7 @@ end
 function waitForProducedItem(itemName, quantity)
     while(true) do
         print("Checking for storage input...")
-        inputCount = getItemsInputCount(itemName)
+        local inputCount = getItemsInputCount(itemName)
         print(inputCount.."/"..quantity.." in input found.")
         if(inputCount>=quantity) then
             print("Enough produced.")
@@ -109,8 +64,11 @@ function storeItems()
     end
 end
 
+settings.load()
+
 while(true) do
 
+    local items_threshold = settings.get("items_threshold")
     for k,v in pairs(items_threshold) do
 
         local itemCount = getItemStorageCount(v.name)
