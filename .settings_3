@@ -1,0 +1,20 @@
+{
+    items_threshold = {
+        { 
+            name = "techreborn:bronze_dust",
+            threshold = 128, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:copper_dust",
+                    count = 3
+                },
+                {
+                    name = "modern_industrialization:tin_dust",
+                    count = 1
+                },
+            },
+            yield = 4
+        }
+    }
+}
