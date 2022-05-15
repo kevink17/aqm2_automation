@@ -31,6 +31,22 @@
                 },
             },
             yield = 2
+        },
+        { 
+            name = "modern_industrialization:battery_alloy_dust",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:antimony_dust",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:lead_dust",
+                    count = 1
+                },
+            },
+            yield = 2
         }
     }
 }
