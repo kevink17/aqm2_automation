@@ -36,5 +36,65 @@
             },
             yield = 1
         },
+        { 
+            name = "techreborn:bronze_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "techreborn:bronze_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "minecraft:gold_ingot",
+            threshold = 200, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:gold_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:tin_ingot",
+            threshold = 100, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:tin_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:silicon_ingot",
+            threshold = 30, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:silicon_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:battery_alloy_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:battery_alloy_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
     }
 }
