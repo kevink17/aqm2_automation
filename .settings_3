@@ -22,7 +22,7 @@
             components =
             { 
                 {
-                    name = "modern_industrialization:silver",
+                    name = "modern_industrialization:silver_dust",
                     count = 1
                 },
                 {
