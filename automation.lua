@@ -75,7 +75,7 @@ function getCraftableItemAmount(components, yield)
     local iterations = math.floor(getItemStorageCount(components[1].name) / components[1].count)
     local itemAmount = iterations*yield
     for k, component in pairs(components) do
-        iterations = math.floor(getItemStorageCount(component.name) / components.count)
+        iterations = math.floor(getItemStorageCount(component.name) / component.count)
         local componentItemAmount = iterations*yield
         if componentItemAmount < itemAmount then
             itemAmount = componentItemAmount
