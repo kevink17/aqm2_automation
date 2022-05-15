@@ -97,7 +97,7 @@ while(true) do
             print("Amount needed for "..v.name.." is "..neededAmount..".")
             local craftableAmount = getCraftableItemAmount(v.components, v.yield)
             if craftableAmount < neededAmount then
-                print("Not enough components for "..v.name.. ". Crafting only " ..craftableAmount.. ".")
+                print("Not enough components for "..v.name.. ".")
                 neededAmount = craftableAmount
             end
             if neededAmount > 0 then
