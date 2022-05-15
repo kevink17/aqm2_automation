@@ -8,6 +8,12 @@ local input_inventory = peripheral.wrap(input_inventory_side)
 local buffer_inventory = peripheral.wrap(buffer_inventory_side)
 
 
+settings.load()
+rednet.open("bottom")
+function sendToMonitor(msg)
+    rednet.broadcast(msg, "monitor")
+end
+
 function getItemCount(itemName, inventory)
     local count = 0;
     for slot, item in pairs(inventory.list()) do
@@ -50,6 +56,7 @@ function waitForProducedItem(itemName, quantity)
         print("Checking for storage input...")
         local inputCount = getItemsInputCount(itemName)
         print(inputCount.."/"..quantity.." in input found.")
+        sendToMonitor(inputCount.."/"..quantity.." "..itemName)
         if(inputCount>=quantity) then
             print("Enough produced.")
             return
@@ -64,13 +71,12 @@ function storeItems()
     end
 end
 
-settings.load()
 
 while(true) do
 
     local items_threshold = settings.get("items_threshold")
     for k,v in pairs(items_threshold) do
-
+        sendToMonitor("Warte auf arbeit...")
         local itemCount = getItemStorageCount(v.name)
         print("Item "..v.name.." has "..itemCount.." on storage.")
         print("Threshold for item is "..v.threshold..".")
