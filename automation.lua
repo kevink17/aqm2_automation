@@ -72,11 +72,17 @@ function storeItems()
 end
 
 function getCraftableItemAmount(components, yield)
-    local minIterations = math.floor(getItemStorageCount(components[1].name) / components[1].count)
-    print("Component "..components[1].name.." allows "..minIterations.." iterations.")
+    componentAmount = getItemStorageCount(components[1].name)
+    local minIterations = math.floor(componentAmount / components[1].count)
+    print("Component: "..components[1].name.."")
+    print("Amount: "..componentAmount..", Count: "..components[1].count.."")
+    print("Iterations: "..minIterations.."")
     for k, component in pairs(components) do
-        local tmpIterations = math.floor(getItemStorageCount(component.name) / component.count)
-        print("Component "..component.name.." allows "..minIterations.." iterations.")
+        componentAmount = getItemStorageCount(component.name)
+        local tmpIterations = math.floor(componentAmount / component.count)
+        print("Component: "..component.name.."")
+        print("Amount: "..componentAmount..", Count: "..component.count.."")
+        print("Iterations: "..tmpIterations.."")
         if tmpIterations < minIterations then
             minIterations = tmpIterations
         end
