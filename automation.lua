@@ -94,15 +94,15 @@ while(true) do
         print("Threshold for item is "..v.threshold..".")
         if(itemCount < v.threshold) then
             neededAmount = v.threshold - itemCount
-            print("Amount needed for "..v.name.." is "..needed..".")
+            print("Amount needed for "..v.name.." is "..neededAmount..".")
             local craftableAmount = getCraftableItemAmount(v.components, v.yield)
             if craftableAmount < neededAmount then
                 print("Not enough components for "..v.name.. ". Crafting only " ..craftableAmount.. ".")
                 neededAmount = craftableAmount
             end
-            produceItem(v.name, needed, v.components, v.yield)
+            produceItem(v.name, neededAmount, v.components, v.yield)
             print("Production has began.")
-            waitForProducedItem(v.name, needed)
+            waitForProducedItem(v.name, neededAmount)
             print("Storing items.")
             storeItems()
             print("Items stored.")
