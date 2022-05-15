@@ -71,6 +71,18 @@ function storeItems()
     end
 end
 
+function getCraftableItemAmount(components, yield)
+    local iterations = math.floor(getItemStorageCount(components[0].name) / components[0].count)
+    local itemAmount = iterations*yield
+    for k, component in pairs(components) do
+        iterations = math.floor(getItemStorageCount(component.name) / components.count)
+        local componentItemAmount = iterations*yield
+        if componentItemAmount < itemAmount then
+            itemAmount = componentItemAmount
+        end
+    end
+    return itemAmount
+end
 
 while(true) do
 
@@ -81,8 +93,13 @@ while(true) do
         print("Item "..v.name.." has "..itemCount.." on storage.")
         print("Threshold for item is "..v.threshold..".")
         if(itemCount < v.threshold) then
-            needed = v.threshold - itemCount
+            neededAmount = v.threshold - itemCount
             print("Amount needed for "..v.name.." is "..needed..".")
+            local craftableAmount = getCraftableItemAmount(v.components, v.yield)
+            if craftableAmount < neededAmount then
+                print("Not enough components for "..v.name.. ". Crafting only " ..craftableAmount.. ".")
+                neededAmount = craftableAmount
+            end
             produceItem(v.name, needed, v.components, v.yield)
             print("Production has began.")
             waitForProducedItem(v.name, needed)
