@@ -13,9 +13,16 @@ function getComputer( id )
     end
 end
 
+print("Starting monitor.")
+
+for computer in computers do
+    monitor.setCursorPos(1, computer.line)
+    monitor.clearLine()
+    monitor.write(computer.name..": Warte auf Signal...")
+end
 
 while true do
-    local computerId, msg = rednet.receive("reporting")
+    local computerId, msg = rednet.receive("monitor")
     local computer = getComputer(computerId)
     local displayMsg = computer.name..": "..msg
     print(displayMsg)
