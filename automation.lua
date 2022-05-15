@@ -100,14 +100,16 @@ while(true) do
                 print("Not enough components for "..v.name.. ". Crafting only " ..craftableAmount.. ".")
                 neededAmount = craftableAmount
             end
-            produceItem(v.name, neededAmount, v.components, v.yield)
-            print("Production has began.")
-            waitForProducedItem(v.name, neededAmount)
-            print("Storing items.")
-            storeItems()
-            print("Items stored.")
+            if neededAmount > 0 then
+                produceItem(v.name, neededAmount, v.components, v.yield)
+                print("Production has began.")
+                waitForProducedItem(v.name, neededAmount)
+                print("Storing items.")
+                storeItems()
+                print("Items stored.")
+            end
         end
     end
 
-    os.sleep(1)
+    os.sleep(3)
 end
