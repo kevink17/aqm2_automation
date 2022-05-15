@@ -1,5 +1,4 @@
 rednet.open("right")
-rednet.run()
 
 settings.load()
 local computers = settings.get("computers")
