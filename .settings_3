@@ -15,6 +15,22 @@
                 },
             },
             yield = 4
+        },
+        { 
+            name = "techreborn:electrum_dust",
+            threshold = 128, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:silver",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:gold_dust",
+                    count = 1
+                },
+            },
+            yield = 2
         }
     }
 }
