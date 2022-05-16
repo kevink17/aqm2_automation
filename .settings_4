@@ -2,11 +2,155 @@
     items_threshold = {
         { 
             name = "techreborn:bronze_plate",
-            threshold = 128, 
+            threshold = 64, 
             components =
             { 
                 {
                     name = "techreborn:bronze_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:bronze_curved_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "techreborn:bronze_plate",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:copper_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "minecraft:copper_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:gold_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "minecraft:gold_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:iron_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "minecraft:iron_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "techreborn:steel_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "techreborn:steel_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+        name = "techreborn:invar_plate",
+        threshold = 40, 
+        components =
+        { 
+            {
+                name = "techreborn:invar_ingot",
+                count = 1
+            },
+        },
+        yield = 1
+        },
+        {
+            name = "techreborn:tin_plate",
+            threshold = 64,
+            components =
+            { 
+                {
+                    name = "techreborn:tin_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "techreborn:tin_curved_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:tin_plate",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:battery_alloy_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:battery_alloy_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:battery_alloy_curved_plate",
+            threshold = 20, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:battery_alloy_plate",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:cupronickel_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:cupronickel_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "techreborn:electrum_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:electrum_ingot",
                     count = 1
                 },
             },
