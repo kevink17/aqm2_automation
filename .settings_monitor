@@ -9,6 +9,11 @@
             id = 3,
             line = 2,
             name = "Mixer 1" 
+        },
+        {
+            id = 4,
+            line = 3,
+            name = "Compressor 1"
         }
     }
 }

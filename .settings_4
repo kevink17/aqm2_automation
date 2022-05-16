@@ -1,0 +1,16 @@
+{
+    items_threshold = {
+        { 
+            name = "techreborn:bronze_plate",
+            threshold = 128, 
+            components =
+            { 
+                {
+                    name = "techreborn:bronze_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+    }
+}
