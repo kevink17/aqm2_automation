@@ -73,10 +73,7 @@ end
 
 function getCraftableItemAmount(components, yield)
     componentAmount = getItemStorageCount(components[1].name)
-    local minIterations = math.floor(componentAmount / components[1].count)
-    print("Component: "..components[1].name.."")
-    print("Amount: "..componentAmount..", Count: "..components[1].count.."")
-    print("Iterations: "..minIterations.."")
+    local minIterations = 10000
     for k, component in pairs(components) do
         componentAmount = getItemStorageCount(component.name)
         local tmpIterations = math.floor(componentAmount / component.count)
@@ -115,7 +112,6 @@ while(true) do
                 print("Items stored.")
             end
         end
+        os.sleep(1)
     end
-
-    os.sleep(3)
 end
