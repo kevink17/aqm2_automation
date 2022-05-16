@@ -25,7 +25,7 @@
             yield = 1
         },
         {
-            name = "modern_industrialization:copper_curved_plate",
+            name = "modern_industrialization:copper_plate",
             threshold = 100, 
             components =
             { 
@@ -37,7 +37,7 @@
             yield = 1
         },
         { 
-            name = "techreborn:copper_plate",
+            name = "techreborn:copper_curved_plate",
             threshold = 100, 
             components =
             { 
