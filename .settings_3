@@ -47,6 +47,38 @@
                 },
             },
             yield = 2
-        }
+        },
+        { 
+            name = "techreborn:invar_dust",
+            threshold = 66,
+            components =
+            { 
+                {
+                    name = "modern_industrialization:iron_dust",
+                    count = 2
+                },
+                {
+                    name = "techreborn:nickel_dust",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:cupronickel_dust",
+            threshold = 64,
+            components =
+            { 
+                {
+                    name = "modern_industrialization:copper_dust",
+                    count = 1
+                },
+                {
+                    name = "techreborn:nickel_dust",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
     }
 }

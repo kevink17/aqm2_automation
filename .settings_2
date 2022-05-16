@@ -96,5 +96,41 @@
             },
             yield = 1
         },
+        { 
+            name = "techreborn:invar_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "techreborn:invar_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "minecraft:iron_ingot",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:iron_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:cupronickel_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:cupronickel_dust",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
     }
 }
