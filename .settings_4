@@ -24,13 +24,25 @@
             },
             yield = 1
         },
+        {
+            name = "modern_industrialization:copper_curved_plate",
+            threshold = 100, 
+            components =
+            { 
+                {
+                    name = "minecraft:copper_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
         { 
             name = "techreborn:copper_plate",
             threshold = 100, 
             components =
             { 
                 {
-                    name = "minecraft:copper_ingot",
+                    name = "minecraft:copper_plate",
                     count = 1
                 },
             },
@@ -72,6 +84,18 @@
             },
             yield = 1
         },
+        { 
+            name = "modern_industrialization:steel_curved_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:steel_plate",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
         {
         name = "techreborn:invar_plate",
         threshold = 40, 
@@ -97,12 +121,12 @@
             yield = 1
         },
         {
-            name = "techreborn:tin_curved_plate",
+            name = "modern_industrialization:tin_curved_plate",
             threshold = 64, 
             components =
             { 
                 {
-                    name = "modern_industrialization:tin_plate",
+                    name = "techreborn:tin_plate",
                     count = 1
                 },
             },
@@ -151,6 +175,42 @@
             { 
                 {
                     name = "techreborn:electrum_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "techreborn:aluminium_plate",
+            threshold = 20, 
+            components =
+            { 
+                {
+                    name = "techreborn:aluminium_ingot",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:aluminium_curved_plate",
+            threshold = 20, 
+            components =
+            { 
+                {
+                    name = "techreborn:aluminium_plate",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "techreborn:silicon_plate",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:silicon_ingot",
                     count = 1
                 },
             },
