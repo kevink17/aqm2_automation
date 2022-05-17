@@ -120,5 +120,53 @@
             },
             yield = 2
         },
+        { 
+            name = "modern_industrialization:tin_rod",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:tin_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:tin_bolt",
+            threshold = 64,
+            components =
+            {
+                {
+                    name = "modern_industrialization:tin_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:steel_rod",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:steel_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:steel_bolt",
+            threshold = 64,
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
     }
 }

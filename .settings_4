@@ -288,5 +288,17 @@
             },
             yield = 1
         },
+        {
+            name = "modern_industrialization:copper_ring",
+            threshold = 10, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:copper_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
     }
 }
