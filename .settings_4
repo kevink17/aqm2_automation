@@ -301,7 +301,7 @@
             yield = 1
         },
         {
-            name = "minecraft:lapis",
+            name = "minecraft:lapis_lazuli",
             threshold = 300, 
             components =
             { 

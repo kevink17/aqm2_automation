@@ -85,7 +85,7 @@
             yield = 3
         },
         { 
-            name = "modern_industrialization:coal_dust",
+            name = "techreborn:coal_dust",
             threshold = 200,
             components =
             {
