@@ -300,5 +300,29 @@
             },
             yield = 1
         },
+        {
+            name = "minecraft:lapis",
+            threshold = 300, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:lapis_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "minecraft:nether_quartz",
+            threshold = 300, 
+            components =
+            { 
+                {
+                    name = "techreborn:quartz_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
     }
 }

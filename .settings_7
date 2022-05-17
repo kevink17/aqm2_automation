@@ -1,0 +1,244 @@
+{
+    items_threshold = {
+        { 
+            name = "minecraft:raw_iron",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:iron_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:iron_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "minecraft:raw_iron",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "minecraft:raw_copper",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:copper_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:copper_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "minecraft:raw_copper",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "minecraft:raw_gold",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:gold_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:gold_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "minecraft:raw_gold",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:coal_crushed_dust",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:coal_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:coal_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "modern_industrialization:coal_crushed_dust",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:lapis_crushed_dust",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:lapis_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:lapis_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "modern_industrialization:lapis_crushed_dust",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "techreborn:raw_tin",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "techreborn:tin_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:tin_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "techreborn:raw_tin",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:raw_antimony",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:antimony_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:antimony_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "modern_industrialization:raw_antimony",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "techreborn:raw_lead",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "techreborn:lead_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:lead_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "techreborn:raw_lead",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:raw_nickel",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:nickel_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "techreborn:nickel_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "modern_industrialization:raw_nickel",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:quartz_crushed_dust",
+            threshold = 90,
+            components =
+            {
+                {
+                    name = "modern_industrialization:quartz_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "techreborn:quartz_dust",
+            threshold = 200,
+            components =
+            {
+                {
+                    name = "modern_industrialization:quartz_crushed_dust",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+    }
+}

@@ -19,6 +19,11 @@
             id = 6,
             line = 4,
             name = "Cutting Machine 1"
-        }
+        },
+        {
+            id = 7,
+            line = 5,
+            name = "Macerator 1"
+        },
     }
 }
