@@ -1,0 +1,76 @@
+{
+    items_threshold = {
+        { 
+            name = "modern_industrialization:copper_wire",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "techreborn:copper_plate",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:copper_fine_wire",
+            threshold = 200, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_wire",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+        { 
+            name = "modern_industrialization:tin_wire",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "techreborn:tin_plate",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:cupronickel_wire",
+            threshold = 50, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:cupronickel_plate",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:electrum_wire",
+            threshold = 100, 
+            components =
+            {
+                {
+                    name = "techreborn:electrum_plate",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:electrum_fine_wire",
+            threshold = 50, 
+            components =
+            {
+                {
+                    name = "techreborn:electrum_wire",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+    }
+}

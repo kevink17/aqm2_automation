@@ -26,7 +26,7 @@
         },
         {
             name = "techreborn:copper_plate",
-            threshold = 100, 
+            threshold = 300, 
             components =
             { 
                 {
