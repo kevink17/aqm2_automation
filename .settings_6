@@ -1,0 +1,124 @@
+{
+    items_threshold = {
+        { 
+            name = "modern_industrialization:copper_rod",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "minecraft:copper_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:copper_bolt",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:bronze_rod",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:bronze_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:bronze_bolt",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:bronze_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:iron_rod",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "minecraft:iron_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:iron_bolt",
+            threshold = 64,
+            components =
+            { 
+                {
+                    name = "modern_industrialization:iron_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:invar_rod",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "techreborn:invar_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:invar_bolt",
+            threshold = 64, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:invar_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:aluminum_rod",
+            threshold = 32, 
+            components =
+            { 
+                {
+                    name = "techreborn:aluminum_ingot",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:aluminum_bolt",
+            threshold = 32,
+            components =
+            {
+                {
+                    name = "modern_industrialization:aluminum_rod",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+    }
+}
