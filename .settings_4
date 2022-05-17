@@ -216,5 +216,77 @@
             },
             yield = 1
         },
+        {
+            name = "modern_industrialization:steel_ring",
+            threshold = 30, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:steel_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:bronze_ring",
+            threshold = 30, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:bronze_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:iron_ring",
+            threshold = 30, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:iron_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:tin_ring",
+            threshold = 30, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:tin_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:aluminum_ring",
+            threshold = 10, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:aluminum_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        {
+            name = "modern_industrialization:invar_ring",
+            threshold = 10, 
+            components =
+            { 
+                {
+                    name = "modern_industrialization:invar_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
     }
 }
