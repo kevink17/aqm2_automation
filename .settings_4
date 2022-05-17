@@ -313,7 +313,7 @@
             yield = 1
         },
         {
-            name = "minecraft:nether_quartz",
+            name = "minecraft:quartz",
             threshold = 300, 
             components =
             { 
