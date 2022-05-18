@@ -22,7 +22,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "minecraft:raw_copper",
@@ -46,7 +46,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "minecraft:raw_gold",
@@ -70,7 +70,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "modern_industrialization:coal_crushed_dust",
@@ -94,7 +94,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "modern_industrialization:lapis_crushed_dust",
@@ -142,7 +142,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "modern_industrialization:raw_antimony",
@@ -166,7 +166,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
         { 
             name = "techreborn:raw_lead",
@@ -238,7 +238,7 @@
                     count = 1
                 },
             },
-            yield = 2
+            yield = 1
         },
     }
 }
