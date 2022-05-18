@@ -14,7 +14,7 @@
         },
         { 
             name = "modern_industrialization:silicon_dust",
-            threshold = 100, 
+            threshold = 64, 
             components =
             {
                 {
