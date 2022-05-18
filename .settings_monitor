@@ -31,9 +31,9 @@
             name = "Wiremill 1"
         },
         {
-            id = 11,
-            line = 9,
-            name = "Blast Furnance"
+            id = 12,
+            line = 10,
+            name = "Blast Furnance 1"
         },
     }
 }
