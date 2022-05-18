@@ -80,5 +80,22 @@
             },
             yield = 2
         },
+        { 
+            name = "modern_industrialization:uncooked_steel_dust",
+            threshold = 200,
+            components =
+            { 
+                {
+                    name = "modern_industrialization:iron_dust",
+                    count = 7
+                },
+                {
+                    name = "modern_industrialization:coke_dust",
+                    count = 2
+                },
+            },
+            yield = 9
+        },
+    }
     }
 }

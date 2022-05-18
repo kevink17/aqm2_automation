@@ -1,0 +1,32 @@
+{
+    items_threshold = {
+        { 
+            name = "techreborn:steel_ingot",
+            threshold = 500, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:uncooked_steel_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:silicon_dust",
+            threshold = 100, 
+            components =
+            {
+                {
+                    name = "techreborn:quartz_dust",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:coke_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+    }
+}
