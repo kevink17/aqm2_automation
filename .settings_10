@@ -1,0 +1,104 @@
+{
+    items_threshold = {
+        { 
+            name = "modern_industrialization:item_pipe",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:bronze_cruved_plate",
+                    count = 6
+                },
+            },
+            yield = 16
+        },
+        { 
+            name = "modern_industrialization:fluid_pipe",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:bronze_cruved_plate",
+                    count = 6
+                },
+                {
+                    name = "minecraft:glass_pane",
+                    count = 1
+                },
+                {
+                    name = "minecraft:copper_rotor",
+                    count = 2
+                },
+            },
+            yield = 16
+        },
+        { 
+            name = "modern_industrialization:tin_cable",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:rubber_sheet",
+                    count = 6
+                },
+                {
+                    name = "modern_industrialization:tin_wire",
+                    count = 3
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "modern_industrialization:copper_blade",
+            threshold = 50, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:copper_rod",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+        { 
+            name = "modern_industrialization:tin_blade",
+            threshold = 50, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:tin_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:tin_rod",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+        { 
+            name = "modern_industrialization:aluminum_blade",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:aluminum_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:aluminum_rod",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+    }
+}

@@ -1,0 +1,204 @@
+{
+    items_threshold = {
+        { 
+            name = "modern_industrialization:copper_gear",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "techreborn:copper_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:copper_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:iron_gear",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "techreborn:iron_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:iron_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:gold_gear",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "techreborn:gold_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:gold_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:bronze_gear",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "techreborn:bronze_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:iron_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:steel_gear",
+            threshold = 20, 
+            components =
+            {
+                {
+                    name = "techreborn:steel_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:steel_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:aluminum_gear",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "techreborn:aluminum_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:aluminum_ring",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
+        { 
+            name = "modern_industrialization:bronze_drill_head",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:bronze_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:bronze_plate",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:bronze_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:bronze_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:bronze_drill",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:bronze_drill_head",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:iron_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:item_pipe",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:fluid_pipe",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:steel_drill_head",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:steel_plate",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:steel_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:steel_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:copper_rotor",
+            threshold = 10, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_blade",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:copper_ring",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:tin_rotor",
+            threshold = 10, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:tin_blade",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:tin_ring",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+    }
+}

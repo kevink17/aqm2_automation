@@ -28,5 +28,17 @@
             },
             yield = 1
         },
+        { 
+            name = "techreborn:aluminum_ingot",
+            threshold = 64, 
+            components =
+            {
+                {
+                    name = "techreborn:aluminum_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
     }
 }

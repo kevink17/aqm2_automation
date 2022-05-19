@@ -96,6 +96,22 @@
             },
             yield = 9
         },
+        { 
+            name = "modern_industrialization:soldering_alloy_dust",
+            threshold = 100,
+            components =
+            { 
+                {
+                    name = "modern_industrialization:lead_dust",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:tin_dust",
+                    count = 1
+                },
+            },
+            yield = 2
+        },
     }
 }
 

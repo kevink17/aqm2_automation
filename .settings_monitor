@@ -31,6 +31,16 @@
             name = "Wiremill 1"
         },
         {
+            id = 9,
+            line = 7,
+            name = "Assembling Machine 1"
+        },
+        {
+            id = 10,
+            line = 8,
+            name = "Packer 1"
+        },
+        {
             id = 12,
             line = 10,
             name = "Blast Furnance 1"
