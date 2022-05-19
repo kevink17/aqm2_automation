@@ -200,5 +200,21 @@
             },
             yield = 1
         },
+        { 
+            name = "modern_industrialization:item_pipe",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:bronze_curved_plate",
+                    count = 6
+                },
+            },
+            yield = 16
+        },
     }
 }
