@@ -22,7 +22,7 @@
             components =
             {
                 {
-                    name = "modern_industrialization:bronze_cruved_plate",
+                    name = "modern_industrialization:bronze_curved_plate",
                     count = 6
                 },
                 {
