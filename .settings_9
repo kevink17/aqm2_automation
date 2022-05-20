@@ -216,5 +216,21 @@
             },
             yield = 16
         },
+        { 
+            name = "modern_industrialization:fluid_pipe",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:bronze_curved_plate",
+                    count = 6
+                },
+                {
+                    name = "modern_industrialization:copper_rotor",
+                    count = 2
+                },
+            },
+            yield = 16
+        },
     }
 }

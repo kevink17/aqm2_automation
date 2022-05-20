@@ -1,26 +1,6 @@
 {
     items_threshold = {
         { 
-            name = "modern_industrialization:fluid_pipe",
-            threshold = 300, 
-            components =
-            {
-                {
-                    name = "modern_industrialization:bronze_curved_plate",
-                    count = 6
-                },
-                {
-                    name = "minecraft:glass_pane",
-                    count = 1
-                },
-                {
-                    name = "modern_industrialization:copper_rotor",
-                    count = 2
-                },
-            },
-            yield = 16
-        },
-        { 
             name = "modern_industrialization:tin_cable",
             threshold = 300, 
             components =
