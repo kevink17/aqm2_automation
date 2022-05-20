@@ -14,7 +14,7 @@
                     count = 1
                 },
                 {
-                    name = "minecraft:copper_rotor",
+                    name = "modern_industrialization:copper_rotor",
                     count = 2
                 },
             },
