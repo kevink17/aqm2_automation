@@ -226,6 +226,10 @@
                     count = 6
                 },
                 {
+                    name = "minecraft:glass_pane",
+                    count = 1
+                },
+                {
                     name = "modern_industrialization:copper_rotor",
                     count = 2
                 },
