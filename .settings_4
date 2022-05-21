@@ -205,7 +205,7 @@
             yield = 1
         },
         {
-            name = "modern_industrialization:silicon_plate",
+            name = "techreborn:silicon_plate",
             threshold = 64, 
             components =
             { 
