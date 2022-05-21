@@ -109,6 +109,30 @@
             yield = 3
         },
         { 
+            name = "minecraft:redstone_dust",
+            threshold = 400,
+            components =
+            {
+                {
+                    name = "modern_industrialization:redstone_crushed_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:redstone_crushed_dust",
+            threshold = 120, 
+            components =
+            {
+                {
+                    name = "minecraft:redstone_ore",
+                    count = 1
+                },
+            },
+            yield = 6
+        },
+        { 
             name = "modern_industrialization:lapis_dust",
             threshold = 200,
             components =

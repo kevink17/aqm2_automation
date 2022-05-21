@@ -185,6 +185,22 @@
             yield = 1
         },
         { 
+            name = "modern_industrialization:aluminum_rotor",
+            threshold = 10, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:aluminum_blade",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:aluminum_ring",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
             name = "modern_industrialization:tin_rotor",
             threshold = 10, 
             components =
@@ -352,22 +368,6 @@
                 {
                     name = "modern_industrialization:copper_wire",
                     count = 4
-                },
-            },
-            yield = 1
-        },
-        { 
-            name = "modern_industrialization:steel_machine_casing",
-            threshold = 20,
-            components =
-            {
-                {
-                    name = "modern_industrialization:steel_gear",
-                    count = 1
-                },
-                {
-                    name = "techreborn:steel_plate",
-                    count = 8
                 },
             },
             yield = 1
