@@ -323,7 +323,7 @@
                 },
                 {
                     name = "modern_industrialization:analog_circuit_board",
-                    count = 3
+                    count = 1
                 },
                 {
                     name = "modern_industrialization:capacitor",
