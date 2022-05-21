@@ -34,7 +34,7 @@
         },
         { 
             name = "modern_industrialization:battery_alloy_dust",
-            threshold = 64, 
+            threshold = 128, 
             components =
             { 
                 {

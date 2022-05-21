@@ -86,7 +86,7 @@
         },
         { 
             name = "modern_industrialization:battery_alloy_ingot",
-            threshold = 64, 
+            threshold = 128, 
             components =
             {
                 {
