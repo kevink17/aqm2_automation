@@ -459,7 +459,7 @@
                 },
                 {
                     name = "techreborn:steel_plate",
-                    count = 1
+                    count = 3
                 },
             },
             yield = 1
