@@ -74,7 +74,7 @@
         },
         { 
             name = "modern_industrialization:silicon_ingot",
-            threshold = 30, 
+            threshold = 64, 
             components =
             {
                 {

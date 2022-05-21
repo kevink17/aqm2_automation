@@ -205,12 +205,12 @@
             yield = 1
         },
         {
-            name = "techreborn:silicon_plate",
+            name = "modern_industrialization:silicon_plate",
             threshold = 64, 
             components =
             { 
                 {
-                    name = "techreborn:silicon_ingot",
+                    name = "modern_industrialization:silicon_ingot",
                     count = 1
                 },
             },
