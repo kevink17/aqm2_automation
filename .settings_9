@@ -283,7 +283,7 @@
                 },
                 {
                     name = "modern_industrialization:rubber_sheet",
-                    count = 1
+                    count = 2
                 },
             },
             yield = 1
