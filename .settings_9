@@ -236,5 +236,101 @@
             },
             yield = 16
         },
+        { 
+            name = "modern_industrialization:capacitor",
+            threshold = 128, 
+            components =
+            {
+                {
+                    name = "techreborn:gold_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:copper_wire",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:rubber_sheet",
+                    count = 1
+                },
+            },
+            yield = 4
+        },
+        { 
+            name = "modern_industrialization:resistor",
+            threshold = 256,
+            components =
+            {
+                {
+                    name = "techreborn:coal_dust",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:copper_fine_wire",
+                    count = 2
+                },
+            },
+            yield = 12
+        },
+        { 
+            name = "modern_industrialization:analog_circuit_board",
+            threshold = 64,
+            components =
+            {
+                {
+                    name = "techreborn:copper_plate",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:rubber_sheet",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:inductor",
+            threshold = 64,
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_rod",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:copper_wire",
+                    count = 8
+                },
+            },
+            yield = 4
+        },
+        { 
+            name = "modern_industrialization:analog_circuit",
+            threshold = 64,
+            components =
+            {
+                {
+                    name = "modern_industrialization:resistor",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:inductor",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:copper_wire",
+                    count = 3
+                },
+                {
+                    name = "modern_industrialization:analog_circuit_board",
+                    count = 3
+                },
+                {
+                    name = "modern_industrialization:capacitor",
+                    count = 2
+                },
+            },
+            yield = 1
+        },
     }
 }
