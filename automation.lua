@@ -96,7 +96,7 @@ while(true) do
         print("Item "..v.name.." has "..itemCount.." on storage.")
         print("Threshold for item is "..v.threshold..".")
         if(itemCount < v.threshold) then
-            neededAmount = v.threshold - itemCount
+            neededAmount = v.threshold
             print("Amount needed for "..v.name.." is "..neededAmount..".")
             local craftableAmount = getCraftableItemAmount(v.components, v.yield)
             if craftableAmount < neededAmount then
