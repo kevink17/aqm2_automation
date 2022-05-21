@@ -41,6 +41,11 @@
             name = "Packer 1"
         },
         {
+            id = 11,
+            line = 9,
+            name = "Polarizer 1"
+        },
+        {
             id = 12,
             line = 10,
             name = "Blast Furnance 1"
