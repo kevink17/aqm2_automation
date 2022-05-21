@@ -64,5 +64,21 @@
             },
             yield = 4
         },
+        { 
+            name = "modern_industrialization:electrum_cable",
+            threshold = 300, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:rubber_sheet",
+                    count = 6
+                },
+                {
+                    name = "modern_industrialization:electrum_wire",
+                    count = 3
+                },
+            },
+            yield = 3
+        },
     }
 }
