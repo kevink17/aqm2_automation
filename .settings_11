@@ -1,0 +1,28 @@
+{
+    items_threshold = {
+        { 
+            name = "modern_industrialization:magnetic_steel_rod",
+            threshold = 40, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:steel_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:magnetic_cupronickel_wire",
+            threshold = 40, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:cupronickel_wire",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+    }
+}
