@@ -74,7 +74,7 @@
         },
         { 
             name = "techreborn:steel_plate",
-            threshold = 100, 
+            threshold = 400, 
             components =
             { 
                 {
