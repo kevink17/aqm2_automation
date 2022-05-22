@@ -109,7 +109,7 @@
             yield = 3
         },
         { 
-            name = "minecraft:redstone_dust",
+            name = "minecraft:redstone",
             threshold = 400,
             components =
             {
