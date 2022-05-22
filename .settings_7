@@ -277,7 +277,7 @@
             yield = 3
         },
         { 
-            name = "techreborn:lignite_coal_dust",
+            name = "modern_industrialization:lignite_coal_dust",
             threshold = 10000,
             components =
             {
