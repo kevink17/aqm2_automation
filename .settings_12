@@ -6,11 +6,15 @@
             components =
             {
                 {
-                    name = "modern_industrialization:uncooked_steel_dust",
+                    name = "modern_industrialization:iron_dust",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:carbon_dust",
                     count = 1
                 },
             },
-            yield = 1
+            yield = 4
         },
         { 
             name = "modern_industrialization:silicon_dust",
@@ -19,14 +23,14 @@
             {
                 {
                     name = "techreborn:quartz_dust",
-                    count = 1
+                    count = 2
                 },
                 {
-                    name = "modern_industrialization:coke_dust",
+                    name = "modern_industrialization:carbon_dust",
                     count = 1
                 },
             },
-            yield = 1
+            yield = 2
         },
         { 
             name = "techreborn:aluminum_ingot",
