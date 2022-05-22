@@ -82,7 +82,7 @@
         },
         { 
             name = "modern_industrialization:aluminum_gear",
-            threshold = 5, 
+            threshold = 10, 
             components =
             {
                 {
@@ -283,6 +283,22 @@
                 },
             },
             yield = 1
+        },
+        { 
+            name = "modern_industrialization:invar_gear",
+            threshold = 10, 
+            components =
+            {
+                {
+                    name = "techreborn:invar_plate",
+                    count = 4
+                },
+                {
+                    name = "modern_industrialization:invar_ring",
+                    count = 1
+                },
+            },
+            yield = 2
         },
     }
 }

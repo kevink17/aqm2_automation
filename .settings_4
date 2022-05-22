@@ -182,7 +182,7 @@
         },
         {
             name = "techreborn:aluminum_plate",
-            threshold = 20, 
+            threshold = 64, 
             components =
             { 
                 {
@@ -194,7 +194,7 @@
         },
         {
             name = "modern_industrialization:aluminum_curved_plate",
-            threshold = 20, 
+            threshold = 40, 
             components =
             { 
                 {

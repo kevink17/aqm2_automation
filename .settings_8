@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "modern_industrialization:copper_wire",
-            threshold = 300, 
+            threshold = 400, 
             components =
             {
                 {

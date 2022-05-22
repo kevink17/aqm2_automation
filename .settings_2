@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "minecraft:copper_ingot",
-            threshold = 100, 
+            threshold = 300, 
             components =
             {
                 {
