@@ -264,5 +264,29 @@
             },
             yield = 1
         },
+        { 
+            name = "modern_industrialization:lignite_coal_crushed_dust",
+            threshold = 90, 
+            components =
+            {
+                {
+                    name = "minecraft:lignite_coal_ore",
+                    count = 1
+                },
+            },
+            yield = 3
+        },
+        { 
+            name = "techreborn:lignite_coal_dust",
+            threshold = 10000,
+            components =
+            {
+                {
+                    name = "modern_industrialization:lignite_coal_crushed_dust",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
     }
 }
