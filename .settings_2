@@ -132,5 +132,17 @@
             },
             yield = 1
         },
+        { 
+            name = "minecraft:glass",
+            threshold = 256,
+            components =
+            {
+                {
+                    name = "minecraft:sand",
+                    count = 1
+                }
+            },
+            yield = 1
+        },
     }
 }
