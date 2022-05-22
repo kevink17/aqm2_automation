@@ -6,13 +6,14 @@
             components =
             {
                 {
-                    name = "modern_industrialization:iron_dust",
-                    count = 4
-                },
-                {
                     name = "modern_industrialization:carbon_dust",
                     count = 1
                 },
+                {
+                    name = "modern_industrialization:iron_dust",
+                    count = 4
+                },
+
             },
             yield = 4
         },
