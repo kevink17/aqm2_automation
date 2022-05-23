@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "techreborn:bronze_dust",
-            threshold = 300, 
+            threshold = 256, 
             components =
             { 
                 {
