@@ -23,13 +23,14 @@
             components =
             {
                 {
-                    name = "techreborn:quartz_dust",
-                    count = 2
-                },
-                {
                     name = "modern_industrialization:carbon_dust",
                     count = 1
                 },
+                {
+                    name = "techreborn:quartz_dust",
+                    count = 2
+                },
+
             },
             yield = 2
         },
