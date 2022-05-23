@@ -19,7 +19,7 @@
         },
         { 
             name = "modern_industrialization:silicon_dust",
-            threshold = 64, 
+            threshold = 200, 
             components =
             {
                 {
@@ -35,7 +35,7 @@
         },
         { 
             name = "techreborn:aluminum_ingot",
-            threshold = 64, 
+            threshold = 300, 
             components =
             {
                 {

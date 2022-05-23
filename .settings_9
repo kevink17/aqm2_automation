@@ -82,7 +82,7 @@
         },
         { 
             name = "modern_industrialization:aluminum_gear",
-            threshold = 10, 
+            threshold = 20, 
             components =
             {
                 {
@@ -186,7 +186,7 @@
         },
         { 
             name = "modern_industrialization:aluminum_rotor",
-            threshold = 10, 
+            threshold = 20, 
             components =
             {
                 {
@@ -202,7 +202,7 @@
         },
         { 
             name = "modern_industrialization:tin_rotor",
-            threshold = 10, 
+            threshold = 20, 
             components =
             {
                 {

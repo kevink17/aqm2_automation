@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "techreborn:bronze_plate",
-            threshold = 64, 
+            threshold = 128, 
             components =
             { 
                 {
@@ -50,7 +50,7 @@
         },
         { 
             name = "techreborn:gold_plate",
-            threshold = 100, 
+            threshold = 200, 
             components =
             { 
                 {
@@ -62,7 +62,7 @@
         },
         { 
             name = "techreborn:iron_plate",
-            threshold = 100, 
+            threshold = 200, 
             components =
             { 
                 {
@@ -98,7 +98,7 @@
         },
         {
         name = "techreborn:invar_plate",
-        threshold = 40, 
+        threshold = 64, 
         components =
         { 
             {
@@ -110,7 +110,7 @@
         },
         {
             name = "techreborn:tin_plate",
-            threshold = 64,
+            threshold = 400,
             components =
             { 
                 {
@@ -122,7 +122,7 @@
         },
         {
             name = "modern_industrialization:tin_curved_plate",
-            threshold = 64, 
+            threshold = 80, 
             components =
             { 
                 {
@@ -134,7 +134,7 @@
         },
         {
             name = "modern_industrialization:battery_alloy_plate",
-            threshold = 64, 
+            threshold = 256, 
             components =
             { 
                 {
@@ -182,7 +182,7 @@
         },
         {
             name = "techreborn:aluminum_plate",
-            threshold = 64, 
+            threshold = 128, 
             components =
             { 
                 {
@@ -194,7 +194,7 @@
         },
         {
             name = "modern_industrialization:aluminum_curved_plate",
-            threshold = 40, 
+            threshold = 60, 
             components =
             { 
                 {
