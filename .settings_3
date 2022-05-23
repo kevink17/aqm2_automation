@@ -18,7 +18,7 @@
         },
         { 
             name = "techreborn:electrum_dust",
-            threshold = 128, 
+            threshold = 300, 
             components =
             { 
                 {

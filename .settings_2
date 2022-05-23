@@ -26,7 +26,7 @@
         },
         { 
             name = "techreborn:electrum_ingot",
-            threshold = 64, 
+            threshold = 200, 
             components =
             {
                 {

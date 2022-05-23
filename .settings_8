@@ -50,7 +50,7 @@
         },
         { 
             name = "modern_industrialization:electrum_wire",
-            threshold = 100, 
+            threshold = 200, 
             components =
             {
                 {
@@ -62,7 +62,7 @@
         },
         { 
             name = "modern_industrialization:electrum_fine_wire",
-            threshold = 50, 
+            threshold = 100, 
             components =
             {
                 {

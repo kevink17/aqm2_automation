@@ -170,7 +170,7 @@
         },
         {
             name = "techreborn:electrum_plate",
-            threshold = 64, 
+            threshold = 200,
             components =
             { 
                 {
