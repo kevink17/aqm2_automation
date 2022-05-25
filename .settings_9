@@ -97,6 +97,54 @@
             yield = 2
         },
         { 
+            name = "modern_industrialization:copper_drill_head",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_gear",
+                    count = 2
+                },
+                {
+                    name = "techreborn:copper_plate",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:copper_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:copper_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:copper_drill",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:copper_drill_head",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:iron_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:item_pipe",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:fluid_pipe",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
             name = "modern_industrialization:bronze_drill_head",
             threshold = 5, 
             components =
