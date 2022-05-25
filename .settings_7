@@ -1,6 +1,18 @@
 {
     items_threshold = {
         { 
+            name = "modern_industrialization:silver_dust",
+            threshold = 500,
+            components =
+            {
+                {
+                    name = "techreborn:raw_silver",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
             name = "minecraft:raw_iron",
             threshold = 500, 
             components =
@@ -266,7 +278,7 @@
         },
         { 
             name = "modern_industrialization:lignite_coal_crushed_dust",
-            threshold = 90, 
+            threshold = 4000, 
             components =
             {
                 {
