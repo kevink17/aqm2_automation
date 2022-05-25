@@ -282,7 +282,7 @@
             components =
             {
                 {
-                    name = "minecraft:lignite_coal_ore",
+                    name = "modern_industrialization:lignite_coal_ore",
                     count = 1
                 },
             },
