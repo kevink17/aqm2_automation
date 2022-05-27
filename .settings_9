@@ -300,5 +300,61 @@
             },
             yield = 2
         },
+        { 
+            name = "modern_industrialization:aluminum_drill_head",
+            threshold = 5, 
+            components =
+            {
+                {
+                    name = "modern_industrialization:aluminum_gear",
+                    count = 2
+                },
+                {
+                    name = "techreborn:aluminum_plate",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:aluminum_curved_plate",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:aluminum_rod",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
+            name = "modern_industrialization:aluminum_drill",
+            threshold = 5,
+            components =
+            {
+                {
+                    name = "modern_industrialization:aluminum_drill_head",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:pump",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:electronic_circuit",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:iron_gear",
+                    count = 2
+                },
+                {
+                    name = "modern_industrialization:electrum_cable",
+                    count = 1
+                },
+                {
+                    name = "modern_industrialization:fluid_pipe",
+                    count = 2
+                },
+            },
+            yield = 1
+        },
     }
 }
