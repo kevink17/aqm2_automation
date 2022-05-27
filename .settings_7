@@ -1,8 +1,20 @@
 {
     items_threshold = {
         { 
+            name = "modern_industrialization:silver_dust",
+            threshold = 500,
+            components =
+            {
+                {
+                    name = "techreborn:raw_silver",
+                    count = 1
+                },
+            },
+            yield = 1
+        },
+        { 
             name = "minecraft:raw_iron",
-            threshold = 90, 
+            threshold = 500, 
             components =
             {
                 {
@@ -14,7 +26,7 @@
         },
         { 
             name = "modern_industrialization:iron_dust",
-            threshold = 200,
+            threshold = 500,
             components =
             {
                 {
@@ -50,7 +62,7 @@
         },
         { 
             name = "minecraft:raw_gold",
-            threshold = 200, 
+            threshold = 400, 
             components =
             {
                 {
@@ -62,7 +74,7 @@
         },
         { 
             name = "modern_industrialization:gold_dust",
-            threshold = 200,
+            threshold = 400,
             components =
             {
                 {
@@ -74,7 +86,7 @@
         },
         { 
             name = "modern_industrialization:coal_crushed_dust",
-            threshold = 200, 
+            threshold = 500, 
             components =
             {
                 {
@@ -86,7 +98,7 @@
         },
         { 
             name = "techreborn:coal_dust",
-            threshold = 400,
+            threshold = 500,
             components =
             {
                 {
@@ -146,7 +158,7 @@
         },
         { 
             name = "techreborn:raw_tin",
-            threshold = 300, 
+            threshold = 500, 
             components =
             {
                 {
@@ -158,7 +170,7 @@
         },
         { 
             name = "modern_industrialization:tin_dust",
-            threshold = 300,
+            threshold = 500,
             components =
             {
                 {
@@ -170,7 +182,7 @@
         },
         { 
             name = "modern_industrialization:raw_antimony",
-            threshold = 90, 
+            threshold = 400, 
             components =
             {
                 {
@@ -182,7 +194,7 @@
         },
         { 
             name = "modern_industrialization:antimony_dust",
-            threshold = 200,
+            threshold = 400,
             components =
             {
                 {
@@ -194,7 +206,7 @@
         },
         { 
             name = "techreborn:raw_lead",
-            threshold = 90, 
+            threshold = 400, 
             components =
             {
                 {
@@ -206,7 +218,7 @@
         },
         { 
             name = "modern_industrialization:lead_dust",
-            threshold = 200,
+            threshold = 400,
             components =
             {
                 {
@@ -266,11 +278,11 @@
         },
         { 
             name = "modern_industrialization:lignite_coal_crushed_dust",
-            threshold = 90, 
+            threshold = 4000, 
             components =
             {
                 {
-                    name = "minecraft:lignite_coal_ore",
+                    name = "modern_industrialization:lignite_coal_ore",
                     count = 1
                 },
             },

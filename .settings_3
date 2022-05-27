@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "techreborn:bronze_dust",
-            threshold = 128, 
+            threshold = 256, 
             components =
             { 
                 {
@@ -18,7 +18,7 @@
         },
         { 
             name = "techreborn:electrum_dust",
-            threshold = 128, 
+            threshold = 300, 
             components =
             { 
                 {
@@ -34,7 +34,7 @@
         },
         { 
             name = "modern_industrialization:battery_alloy_dust",
-            threshold = 128, 
+            threshold = 300, 
             components =
             { 
                 {

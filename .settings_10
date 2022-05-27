@@ -34,7 +34,7 @@
         },
         { 
             name = "modern_industrialization:tin_blade",
-            threshold = 50, 
+            threshold = 80, 
             components =
             {
                 {
@@ -50,7 +50,7 @@
         },
         { 
             name = "modern_industrialization:aluminum_blade",
-            threshold = 20, 
+            threshold = 80, 
             components =
             {
                 {

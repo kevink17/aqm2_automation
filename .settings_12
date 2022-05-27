@@ -19,23 +19,24 @@
         },
         { 
             name = "modern_industrialization:silicon_dust",
-            threshold = 64, 
+            threshold = 200, 
             components =
             {
-                {
-                    name = "techreborn:quartz_dust",
-                    count = 2
-                },
                 {
                     name = "modern_industrialization:carbon_dust",
                     count = 1
                 },
+                {
+                    name = "techreborn:quartz_dust",
+                    count = 2
+                },
+
             },
             yield = 2
         },
         { 
             name = "techreborn:aluminum_ingot",
-            threshold = 64, 
+            threshold = 300, 
             components =
             {
                 {

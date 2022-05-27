@@ -98,7 +98,7 @@
         },
         { 
             name = "modern_industrialization:aluminum_rod",
-            threshold = 32, 
+            threshold = 64, 
             components =
             { 
                 {
@@ -146,9 +146,9 @@
         },
         { 
             name = "modern_industrialization:steel_rod",
-            threshold = 64, 
+            threshold = 200, 
             components =
-            { 
+            {
                 {
                     name = "techreborn:steel_ingot",
                     count = 1

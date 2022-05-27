@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "modern_industrialization:steel_rod_magnetic",
-            threshold = 40, 
+            threshold = 64, 
             components =
             {
                 {

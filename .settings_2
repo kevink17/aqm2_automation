@@ -2,7 +2,7 @@
     items_threshold = {
         { 
             name = "minecraft:copper_ingot",
-            threshold = 300, 
+            threshold = 500, 
             components =
             {
                 {
@@ -26,7 +26,7 @@
         },
         { 
             name = "techreborn:electrum_ingot",
-            threshold = 64, 
+            threshold = 200, 
             components =
             {
                 {
@@ -86,7 +86,7 @@
         },
         { 
             name = "modern_industrialization:battery_alloy_ingot",
-            threshold = 128, 
+            threshold = 300, 
             components =
             {
                 {
@@ -110,7 +110,7 @@
         },
         { 
             name = "minecraft:iron_ingot",
-            threshold = 300, 
+            threshold = 600, 
             components =
             {
                 {
